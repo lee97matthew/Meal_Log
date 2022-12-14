@@ -28,4 +28,10 @@ How to Begin a MVC Ruby on Rails project
 - and stylesheet from the starter template
   - to app/views/layouts/application.html.erb
 
+# Partial Templates
+- name file starting with _ like "_header.html.erb"
+  - then use <%= render "shared/header" %> to render it out in html
 
+# Linking
+- <%= link_to "Create a New Entry", new_entry_path, class: "button is-success" %>
+  - link_to "Words to show", rails path, class: "classname"
