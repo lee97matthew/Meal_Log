@@ -1,5 +1,6 @@
 # README
 How to Begin a MVC Ruby on Rails project
+
 # Creating a Model
 - rails g model
 - rails g scaffold ClassName attr_1:datatype attr_2:datatype
@@ -13,5 +14,18 @@ How to Begin a MVC Ruby on Rails project
   - go to http://localhost:3000/rails/info/routes
 
 # Installing Dependencies
-- Use bundle add name 
-- just call bundle to do like a "npm install"
+- Use "bundle add name" or add to the "Gemfile" like a package json
+- just call "bundle" to do like a "npm install"
+
+# Initializing Routes
+- Inside of the config/routes.rb
+  - root to: "entries#index" 
+  - will route to the entries controller's index action
+    - app/controllers/entries_controller.rb
+
+# Activating Bulma CSS Framework
+- Add [responsive viewport meta tag](https://bulma.io/documentation/overview/start/)
+- and stylesheet from the starter template
+  - to app/views/layouts/application.html.erb
+
+
