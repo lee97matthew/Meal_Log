@@ -35,3 +35,7 @@ How to Begin a MVC Ruby on Rails project
 # Linking
 - <%= link_to "Create a New Entry", new_entry_path, class: "button is-success" %>
   - link_to "Words to show", rails path, class: "classname"
+
+# Initializer
+- Added this time_format.rb in config/initializers
+  - provides a new function upon app startup
