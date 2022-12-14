@@ -1,6 +1,6 @@
 <!--<h1>Entries</h1>-->
 <% content_for :title do %>
-  Meal Log &ndash; <%= DateTime.now.strftime("%d/%m/%Y %H:%M") %>
+  Meal Log &ndash; <%= DateTime.now.to_fs(:nice_date) %>
 <% end %>
 
 <div class="columns mt-6 is-centered">
