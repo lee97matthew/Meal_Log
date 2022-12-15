@@ -39,3 +39,6 @@ How to Begin a MVC Ruby on Rails project
 # Initializer
 - Added this time_format.rb in config/initializers
   - provides a new function upon app startup
+
+# Book keeping of params
+- use <%= params %> to show the params of that page, such as what controller, view and ID are active

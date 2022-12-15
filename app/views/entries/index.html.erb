@@ -24,7 +24,7 @@
         <div class="card-footer">
           <%= link_to "Show Entry", entry, class:"card-footer-item" %>
           <%= link_to "Edit Entry", edit_entry_path(entry), class:"card-footer-item" %>
-          <%= link_to "Delete Entry", entry, method: :delete, data: {confirm: 'Are you sure?' }, class:"card-footer-item" %>
+          <%= link_to "Delete Entry", entry_path(entry), data: { turbo_method: "delete", turbo_confirm: 'Are you sure?' }, class:"card-footer-item" %>
         </div>
       </div>
     </div>
